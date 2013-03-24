@@ -9,9 +9,9 @@
 			  <%= @pin.user.name %>
 			</p>
 		    <% if current_user == @pin.user %>
-				<%= link_to 'Edddit', edit_pin_path(@pin) %> |
+				<%= link_to 'Edit', edit_pin_path(@pin) %> |
 			<% end %>
-			<%= link_to 'BBBack', pins_path %>
+			<%= link_to 'Back', pins_path %>
 		</div>
 	</div>
 </div>
