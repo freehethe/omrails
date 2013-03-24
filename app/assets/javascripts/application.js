@@ -13,6 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
-
-
+//= require jquery.masonry.min.js
 = require_tree . 
+
+
+
+
+
+
+
